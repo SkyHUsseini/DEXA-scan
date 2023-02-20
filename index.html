@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DEXA scan | T-score</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="bg-dexa">
+          <div class="converter-content">
+            <div class="user-input">
+              <label for="t-score" class="fw-bold fs-paragraph"
+                >Enter a T-score Value For Diagnosis</label
+              >
+              <div>
+                <input type="number" name="" id="t-score" class="tScore" />
+                <button class="enter-btn">Enter</button>
+              </div>
+            </div>
+            <br />
+            <h1 class="fs-secondary-heading">Diagnosis:</h1>
+            <div class="diagnosis-result">
+              <!-- <p class="fs-paragraph">
+                According to the entered T-score the diagnosis is:
+                <span class="text-green fw-bold">Normal</span>
+              </p> -->
+              <!-- <img
+                class="diagnosis__img"
+                src="./images/osteopenia.jpg"
+                alt=""
+              />
+              <img
+                class="diagnosis__img"
+                src="./images/osteoporosis.jpg"
+                alt=""
+              /> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
